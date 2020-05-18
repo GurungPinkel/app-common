@@ -10,4 +10,4 @@ const validateRequest = (req: Request, res: Response, next: NextFunction) => {
     next();
 };
 
-export default { validateRequest };
+export { validateRequest };
