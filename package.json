@@ -3,6 +3,7 @@
     "version": "1.0.5",
     "description": "",
     "main": "src/index.ts",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "build": "npm run clean && tsc ",
         "dev": "DEBUG=* ts-node-dev --poll src/index.ts",
